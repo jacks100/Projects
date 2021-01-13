@@ -1,1 +1,3 @@
-# Projects
+# Hopfield and Diffusion Intelligence Models
+
+This work contains my simulation of a Hopfield Network and some simulations related to using properties of diffusion to yield intelligent patterns. The diffusion model needs work on the training component. The basic idea is to place particles on a grid in which the position of particles represents an input vector. The system can evolve in different ways depending on where the particles are initially placed, due to barriers that limit the motion of the particles. A way to modify the barriers and introduce directional force-fields is being developed. I have also been expanding on the Hopfield network to build a restricted Boltzman machine.
