@@ -1,0 +1,14 @@
+
+`define NEURON_COUNT 4'd8       // number of neurons
+`define NEURON_INDEX_MAX 4'd7
+`define STATE_INPUT 2'd0
+`define STATE_UPDATING 2'd1
+`define STATE_LEARNING 2'd2
+
+`define PATTERN_INPUT_1 8'b11100000
+`define PATTERN_INPUT_2 8'b00001110
+`define PATTERN_INPUT_3 8'b10100000
+`define PATTERN_INPUT_4 8'b00001100
+`define THRESHOLD_UPPER 8'b10000000
+`define THRESHOLD_LOWER 8'd1
+

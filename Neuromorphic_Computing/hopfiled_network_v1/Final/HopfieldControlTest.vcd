@@ -1,0 +1,85 @@
+$date
+	Sat Dec 25 14:52:34 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module HopfieldcontrolTest $end
+$var wire 1 ! same_input $end
+$var wire 1 " neuron_states $end
+$var wire 1 # converged $end
+$var reg 1 $ clk $end
+$var reg 1 % modify_neuron $end
+$var reg 1 & modify_neuron_using_input $end
+$var reg 1 ' modify_weights $end
+$var reg 4 ( pattern_input [3:0] $end
+$scope module dpath $end
+$var wire 1 $ clk $end
+$var wire 1 % modify_neuron $end
+$var wire 1 & modify_neuron_using_input $end
+$var wire 1 ' modify_weights $end
+$var wire 4 ) pattern_input [3:0] $end
+$var reg 4 * activation [3:0] $end
+$var reg 1 # converged $end
+$var reg 1 " neuron_states $end
+$var reg 4 + neuron_states_new [3:0] $end
+$var reg 4 , pattern_input_prev [3:0] $end
+$var reg 4 - products [3:0] $end
+$var reg 1 ! same_input $end
+$var integer 32 . i [31:0] $end
+$var integer 32 / j [31:0] $end
+$var integer 32 0 k [31:0] $end
+$var integer 32 1 l [31:0] $end
+$var integer 32 2 z [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+bx (
+x'
+x&
+x%
+x$
+x#
+x"
+x!
+$end
+#10
+1$
+#20
+0$
+#40
+1%
+#60
+1&
+#80
+bx .
+b10 (
+b10 )
+#100
+bx .
+1!
+0"
+b10 ,
+1$
+#110
+0$
+#130
+1$
+#140
+0$
+#150
